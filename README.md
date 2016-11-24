@@ -1,2 +1,5 @@
-# HotPassion
-Javascript를 사용한 테스트 코드들입니다. 언젠간 유용하게 쓰일 날이 올꺼 같아서 입니다.
+jQuery와 관련있는 JavaScript 테스트 코드 입니다.
+====================================
+
+# jQuery
+## 1. CheckVersion1.9GlobalAjax : 1.9버전 이상부터 변경된 Global ajax api관련 예제입니다.

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extention Filter</title>
+    <script>
+        window.onload = function() {
+
+            // 파일의 끝이 .jpg거나 .jpeg일 경우를 비교
+            const fileCheck = function() {
+                if (this.value.endsWith('.jpg') || this.value.endsWith('.jpeg')) {
+                    alert('Extention is jpg or jpeg');
+                } else {
+                    alert('Extention is not jpg or jpeg');
+                    return "";
+                }
+            }
+
+            let customFileElem = document.getElementById("customFile").addEventListener("change", fileCheck);
+        };
+
+
+    </script>
+</head>
+<body>
+    <input id="customFile" type="file" accept="image/jpeg, image/jpg">
+</body>
+</html>
